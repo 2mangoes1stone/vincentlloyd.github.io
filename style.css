@@ -1,0 +1,112 @@
+body {
+    min-width: 320px;
+    min-height: 1000px;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #E8122F;
+}
+
+.flex {
+  display: flex;
+  margin-left: 4.6875%;
+}
+
+.flex.table-row {
+  margin: 10px 0 0 4.6875%;
+}
+
+.toolbar-icon {
+  display: block;
+  margin-left: auto;
+}
+
+#toolbar {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+#contact-icon {
+  margin-bottom: 10px;
+}
+
+#nav-icon {
+  display: block;
+  margin: 14.6875% auto 4.6875% auto;
+  /*margin-top: 14.6875%;
+  margin-right: auto;
+  margin-left: auto;*/
+  width: 11.25%;
+}
+
+#big-name {
+  display: block;
+}
+
+
+#intro-text {
+  margin: 14.0625% 0 0 10.9375%;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Scope One', serif;
+  font-size: 24px;
+  font-weight: 100;
+  color: #E0E0E0;
+}
+
+.section-title {
+  margin: 0 0 0 4.6875%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 86px;
+  font-weight: 400;
+  color: #E0E0E0;
+}
+
+.body-text {
+  margin-left: 4.6875%;
+  margin-right: 4.6875%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: #E0E0E0;
+}
+
+.block-header {
+  margin-left: 4.6875%;
+  margin-right: 4.6875%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #E0E0E0;
+
+}
+
+.edu-header {
+  margin: 0 4.6875% 0 4.6875%;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #E0E0E0;
+}
+
+.skill-header {
+  margin: 0;
+  width: 40%;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #E0E0E0;
+}
+
+ul.skill-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+li.skill-item {
+  margin: 0 0 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #E0E0E0;
+}

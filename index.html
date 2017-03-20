@@ -1,3 +1,142 @@
-<p>I am an aspiring web developer with a curious mind and a passion for ideas. I arrived on the shores of Techtopia with experience in architectural design and startup management, places in which I applied creativity to solve problems and worked collaboratively to manage project complexity and deadlines.
-<br><br>
-A great project demands a great brief but as these are sometimes hard to formulate I am happy to report that I have, in another life, helped clients to clarify their desires so that they might realise their dream. I am interested in automation and the digitisation of business operations and am a true believer in technology’s potential to improve people’s lives. The robots are coming and I, for one, intend to be their friend.</p>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="robots" content="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>
+      ben elphinstone · web developer + designer · portfolio
+    </title>
+  </head>
+  <body>
+    <div id="content">
+        <div id="toolbar">
+          <img id="contact-icon" class="toolbar-icon" src="images/contact-icon.svg" title="contact me">
+          <img class="toolbar-icon" src="images/colour-icon.svg">
+        </div>
+      <h1 id="intro-text" class="foreground">I am an<br>aspiring web<br>developer and<br>designer based<br>in Melbourne,<br>Australia.</h1>
+      <img id="nav-icon" src="images/nav-icon.svg">
+
+      <img id="big-name" src="images/big-name.svg">
+
+      <!-- ABOUT -->
+      <p class="section-title">about</p>
+
+      <p class="body-text">I'm an aspiring web developer with a background in architectural design and operations management.</p>
+      <p class="body-text">I am interested in the automation and digitisation of business using internet enabled technologies.</p>
+      <p class="body-text">The robots are coming and I, for one, intend to be their friend.</p>
+
+      <!-- SKILLS -->
+      <p class="section-title">skills</p>
+
+      <!-- EDUCATION -->
+      <p class="block-header">Eduction</p>
+
+      <p class="edu-header"><b>B. Architecture</p>
+      <p class="body-text">Qld Univeristy of Technology</p>
+      <p class="edu-header">Dip. Information Technology</p>
+      <p class="body-text">Coder Factory Academy</p>
+
+
+      <!-- DEVELOPMENT SKILLS -->
+      <p class="block-header">Development</p>
+
+      <div class="flex table-row">
+        <p class="skill-header">OOP</p>
+        <div>
+          <ul class="skill-list">
+            <li class="skill-item">Python</li>
+            <li class="skill-item">Ruby</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex table-row">
+        <p class="skill-header">JavaScript</p>
+        <div>
+          <ul class="skill-list">
+            <li class="skill-item">Node.js</li>
+            <li class="skill-item">React</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex table-row">
+        <p class="skill-header">Database</p>
+        <div>
+          <ul class="skill-list">
+            <li class="skill-item">MongoDB</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="flex table-row">
+        <p class="skill-header">Webpage</p>
+        <div>
+          <ul class="skill-list">
+            <li class="skill-item">HTML5</li>
+            <li class="skill-item">CSS3</li>
+            <li class="skill-item">Sass</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DESIGN SKILLS -->
+      <p class="block-header">Design</p>
+
+      <div class="flex table-row">
+        <p class="skill-header">Graphic</p>
+        <div>
+          <ul class="skill-list">
+            <li class="skill-item">Photoshop</li>
+            <li class="skill-item">Illustrator</li>
+            <li class="skill-item">InDesign</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex table-row">
+        <p class="skill-header">UI / UX</p>
+        <div>
+          <ul class="skill-list">
+            <li class="skill-item">Axure</li>
+            <li class="skill-item">Sketch</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex table-row">
+        <p class="skill-header">3D Modelling</p>
+        <div>
+          <ul class="skill-list">
+            <li class="skill-item">AutoCAD</li>
+            <li class="skill-item">ArchiCAD</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <p class="section-title">work</p>
+
+
+    </div>
+    <script>
+      // Set height of top margin in response to width of right margin
+      $(window).margin_resize(function() {
+        var margin-width = $("#icon-right-margin").width();
+        $("#icon-top-margin").height(margin-width);
+      })
+      // Set height of icon in response to width icon
+      // $(window).icon_resize(function() {
+      //   var icon-width = $("#icon-svg").width();
+      //   $("#icon-svg").attr("height", icon-width);
+      // })
+      $(window).margin_resize();
+      // $(window).icon_resize();
+    </script>
+  </body>
+</html>

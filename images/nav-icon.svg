@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>nav-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="00-Production" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mob-P-Gr-/-Re-01-Copy" transform="translate(-197.000000, -329.000000)" fill="#E0E0E0">
+            <g id="Group" transform="translate(197.000000, 329.000000)">
+                <path d="M18,34 C9.178,34 2,26.822 2,18 C2,9.178 9.178,2 18,2 C26.822,2 34,9.178 34,18 C34,26.822 26.822,34 18,34 M18,0 C8.059,0 0,8.059 0,18 C0,27.941 8.059,36 18,36 C27.941,36 36,27.941 36,18 C36,8.059 27.941,0 18,0" id="Fill-1"></path>
+                <polygon id="Fill-3" points="18 21.1816 8.808 11.9896 7.394 13.4046 18 24.0106 28.606 13.4046 27.192 11.9896"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

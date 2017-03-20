@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="27px" viewBox="0 0 36 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>colour-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="00-Production" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mob-P-Gr-/-Re-04-Copy" transform="translate(-269.000000, -52.000000)" fill="#E0E0E0">
+            <g id="Group" transform="translate(269.000000, 52.000000)">
+                <g id="Page-1">
+                    <polygon id="Fill-1" points="3 24 33 3 33 24"></polygon>
+                    <path d="M0,27 L36,27 L36,0 L0,0 L0,27 Z M2,25 L34,25 L34,2 L2,2 L2,25 Z" id="Fill-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
