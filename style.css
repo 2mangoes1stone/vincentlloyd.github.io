@@ -32,9 +32,6 @@ body {
 #nav-icon {
   display: block;
   margin: 14.6875% auto 4.6875% auto;
-  /*margin-top: 14.6875%;
-  margin-right: auto;
-  margin-left: auto;*/
   width: 11.25%;
 }
 
@@ -45,18 +42,20 @@ body {
 
 #intro-text {
   margin: 14.0625% 0 0 10.9375%;
-  /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Scope One', serif;
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Scope One', serif;*/
   font-size: 24px;
   font-weight: 100;
   color: #E0E0E0;
 }
 
 .section-title {
-  margin: 0 0 0 4.6875%;
-  font-family: 'Roboto', sans-serif;
+  margin: 0 4.6875% 0 4.6875%;
+  text-align: center;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Oswald', sans-serif;
   font-size: 86px;
-  font-weight: 400;
+  font-weight: 700;
   color: #E0E0E0;
 }
 
