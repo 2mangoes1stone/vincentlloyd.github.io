@@ -1,3 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
+
 body {
     min-width: 320px;
     min-height: 1000px;
@@ -11,8 +26,12 @@ body {
   margin-left: 4.6875%;
 }
 
+.flex.col {
+  flex-direction: column;
+}
+
 .flex.table-row {
-  margin: 10px 0 0 4.6875%;
+  margin-top: 4.6875%
 }
 
 .toolbar-icon {
@@ -32,7 +51,6 @@ body {
 #nav-icon {
   display: block;
   margin: 14.6875% auto 4.6875% auto;
-  width: 11.25%;
 }
 
 #big-name {
@@ -42,21 +60,26 @@ body {
 
 #intro-text {
   margin: 14.0625% 0 0 10.9375%;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   /*font-family: 'Scope One', serif;*/
+  font-family: 'Abel', sans-serif;
   font-size: 24px;
   font-weight: 100;
   color: #E0E0E0;
 }
 
-.section-title {
+.section-header {
   margin: 0 4.6875% 0 4.6875%;
   text-align: center;
-  /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
   font-size: 86px;
-  font-weight: 700;
+  font-weight: 900;
   color: #E0E0E0;
+  background-color: #E8122F;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
 }
 
 .body-text {
@@ -97,12 +120,7 @@ body {
   color: #E0E0E0;
 }
 
-ul.skill-list {
-  list-style-type: none;
-  margin: 0;
-}
-
-li.skill-item {
+p.skill-item {
   margin: 0 0 0 0;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
