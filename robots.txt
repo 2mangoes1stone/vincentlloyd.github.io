@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: xxxx
+Sitemap: https://raw.githubusercontent.com/VincentLloyd/vincentlloyd.github.io/master/sitemap.xml
