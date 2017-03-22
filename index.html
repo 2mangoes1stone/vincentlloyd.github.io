@@ -37,9 +37,18 @@
   </head>
 
   <body>
-    <div id="content">
+    <div class="content">
 
-
+      <!-- Toolbar -->
+      <div id="toolbar">
+        <div class="flex">
+          <img id="colour-icon" class="hvr-grow" src="images/nav-colour.svg">
+          <!-- <img id="colour-icon" class="hvr-grow" src="images/colour-icon.svg"> -->
+          <a href="#contact">
+            <img id="contact-icon" class="hvr-grow" src="images/nav-contact.svg" title="contact me">
+          </a>
+        </div>
+      </div>
 
       <h1 id="intro-text" class="foreground">
         I&apos;m an<br>
@@ -50,26 +59,17 @@
         Australia.
       </h1>
       <a href="#about">
-        <img id="nav-icon" class="hvr-grow"src="images/nav-icon.svg">
+        <img id="nav-icon" class="hvr-grow"src="images/nav-down.svg">
       </a>
 
       <img id="big-name" src="images/big-name.svg">
 
-
-      <!-- Toolbar -->
-      <div id="toolbar">
-        <div class="flex">
-          <img class="toolbar-icon hvr-grow" src="images/colour-icon.svg">
-          <a href="#contact">
-            <img id="contact-icon" class="toolbar-icon hvr-grow" src="images/contact-icon.svg" title="contact me">
-          </a>
-        </div>
-      </div>
-
       <!-- MAIN SECTION: About -->
-      <p class="section-header" data-aos="flip-up">
-        <a name="about">about</a>
-      </p>
+      <div class="section-header">
+        <p data-aos="flip-up">
+          <a name="about">about</a>
+        </p>
+      </div>
 
       <p class="body-text">I'm an aspiring web developer with a background in architectural design and operations management.</p>
       <p class="body-text">I am interested in the automation and digitisation of business using internet enabled technologies.</p>
@@ -148,21 +148,37 @@
         </div>
       </div>
 
-      <!-- MAIN SECTION: WORK -->
+      <!-- MAIN SECTION: Work -->
       <p class="section-header">work</p>
 
-      <div class="item" data-aos="flip-up">8</div>
-      <div class="item" data-aos="flip-down">9</div>
-      <div class="item" data-aos="flip-right">10</div>
-      <div class="item" data-aos="flip-left">11</div>
+      <div class="flex col">
+        <p>Haneva</p>
+        <div class="flex col project" data-aos="flip-up">Project 1</div>
+        <p>A short blurb abut this project</p>
+      <div class="flex col project" data-aos="flip-up">Project 2</div>
+      <div class="flex col project" data-aos="flip-up">Project 3</div>
+      <div class="flex col project" data-aos="flip-up">Project 4</div>
 
-      <!-- MAIN SECTION: WORK -->
+      <!-- MAIN SECTION: Contact -->
       <p class="section-header">
         <a name="contact">contact</a>
       </p>
       <div class="flex col">
         <div class="flex">
+          <div class="flex col">
+            <div>
+              <img id="social-icon" src="images/social-github.svg" title="Visit me on GitHub">
+              <p class="social-title">Github</p>
+            </div>
+          </div>
+          <div class="flex col">
+            <div>
+              <img id="social-icon" src="images/social-github.svg" title="Visit me on GitHub">
+              <p class="social-title">Github</p>
+            </div>
+          </div>
         </div>
+        <div class="contact-bottom-padding"</div>
       </div>
     </div>
 
