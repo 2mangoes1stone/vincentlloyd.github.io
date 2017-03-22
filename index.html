@@ -1,6 +1,6 @@
 <html>
   <head>
-    <!-- Meta tags -->
+    <!-- Meta data -->
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -25,7 +25,7 @@
     <!-- CSS-->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="hover.css">
-    <!-- <link href="http://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet"> -->
+    <link href="http://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
     <!-- Fonts -->
@@ -40,6 +40,7 @@
     <div class="content">
 
       <!-- Toolbar -->
+
       <div id="toolbar">
         <div class="flex">
           <img id="colour-icon" class="icon hvr-grow" src="images/nav-colour.svg">
@@ -50,24 +51,34 @@
         </div>
       </div>
 
-      <h1 id="intro-text" class="foreground">
-        I&apos;m an<br>
-        aspiring web<br>
-        developer and<br>
-        designer based<br>
-        in Melbourne,<br>
-        Australia.
-      </h1>
-      <a href="#about">
-        <img id="nav-icon" class="hvr-grow"src="images/nav-down.svg">
-      </a>
+      <div class="home-page">
+        <h1 id="intro-text" class="foreground">
+          I&apos;m an<br>
+          aspiring web<br>
+          developer and<br>
+          designer based<br>
+          in Melbourne,<br>
+          Australia.
+        </h1>
 
-      <img id="big-name" src="images/big-name.svg">
+        <a href="#about">
+          <img id="nav-icon" class="hvr-grow"src="images/nav-down.svg">
+        </a>
+
+        <img id="big-name" src="images/big-name.svg">
+      </div>
+
+
+
+
+
+
 
       <!-- MAIN SECTION: About -->
       <div class="section-header">
-        <p data-aos="flip-up">
-          <a name="about">about</a>
+        <p>
+          <a name="about"></a>
+          about
         </p>
       </div>
 
@@ -184,17 +195,19 @@
         <a name="contact">contact</a>
       </p>
 
+      <p class="body-text">Contact or learn more about me using the links below!</p>
+
       <!-- Social links grid-->
-      <div class="flex col">
+      <div class="contact-grid">
         <!-- Social links - first row -->
         <div class="flex">
-          <div class="flex col">
+          <div class="flex col contact-justify">
             <div>
               <img id="icon" src="images/social-github.svg" title="Visit me on GitHub">
               <p class="social-title">Github</p>
             </div>
           </div>
-          <div class="flex col">
+          <div class="flex col contact-justify">
             <div>
               <img id="icon" src="images/social-linkedin.svg" title="Visit me on LinkedIn">
               <p class="social-title">LinkedIn</p>
@@ -203,13 +216,13 @@
         </div>
         <!-- Social links - second row -->
         <div class="flex">
-          <div class="flex col">
+          <div class="flex col contact-justify">
             <div>
               <img id="icon" src="images/social-email.svg" title="Send me an email">
               <p class="social-title">Email</p>
             </div>
           </div>
-          <div class="flex col">
+          <div class="flex col contact-justify">
             <div>
               <img id="icon" src="images/social-twitter.svg" title="Visit me on Twitter">
               <p class="social-title">Twitter</p>
@@ -217,7 +230,6 @@
           </div>
         </div>
       </div>
-
       <div class="contact-bottom-padding"</div>
     </div>
 

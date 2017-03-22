@@ -1,16 +1,17 @@
 body {
-    max-width: 100%;
+    max-width: 100vw;
     min-width: 320px;
-    min-height: 1000px;
-    margin: 0 !important;
-    padding: 0 !important;
-    background-color: #E8122F;
+    /*margin: 0 !important;
+    padding: 0 !important;*/
+    background-color: #292929;
     /*-webkit-font-smoothing: antialiased;*/
 }
 
 .content {
-
+max-width: 100%;
 }
+
+
 
 .flex {
   display: flex;
@@ -37,7 +38,7 @@ body {
   position: fixed;
   z-index: 2;
   bottom: 0%;
-  background-color: #E8122F;
+  background-color: #292929;
 }
 
 #colour-icon {
@@ -63,29 +64,38 @@ body {
 
 #big-name {
   display: block;
+  position:absolute;
+  /*top:100vh;*/
+}
+
+.home-page {
+  height: 100vh;
+  width: 100vw;
 }
 
 #intro-text {
-  margin: 14.0625% 0 0 10.9375%;
+  padding: 14.0625% 0 0 10.9375%;
   font-family: 'Roboto', sans-serif;
   /*font-family: 'Scope One', serif;*/
   /*font-family: 'Abel', sans-serif;*/
   font-size: 24px;
   font-weight: 100;
-  color: #E0E0E0;
+  color: #F7484E;
 }
 
 /* - - - Headers - - - */
 
 .section-header {
-  margin: 0 4.6875% 0 4.6875%;
-  min-height: 101px;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  margin: 0;
+  /*min-height: 101px;*/
   font-family: 'Roboto', sans-serif;
   font-size: 86px;
   font-weight: 900;
-  color: #E0E0E0;
-  background-color: #E8122F;
+  color: #F7484E;
+  background-color: #292929;
   position: -webkit-sticky;
   position: sticky;
   z-index: 1;
@@ -98,7 +108,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: #E0E0E0;
+  color: #F7484E;
 
 }
 
@@ -107,7 +117,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: #E0E0E0;
+  color: #F7484E;
 }
 
 .skill-header {
@@ -116,16 +126,18 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: #E0E0E0;
+  color: #F7484E;
 }
+
+/* - - - - - - */
 
 .body-text {
   margin-left: 4.6875%;
   margin-right: 4.6875%;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 100;
-  color: #E0E0E0;
+  color: #FFFFFF;
 }
 
 p.skill-item {
@@ -133,7 +145,7 @@ p.skill-item {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: #E0E0E0;
+  color: #F7484E;
 }
 
 /* - - - Work - - - */
@@ -142,25 +154,28 @@ p.skill-item {
   width: 66%;
   height: 200px;
   margin: 0 auto 0 auto;
-  background: #E0E0E0;
-  color: #E8122F;
+  background: #FFFFFF;
+  color: #292929;
+  font-family: 'Roboto', sans-serif;
   font-size: 3em;
 }
 
 /* - - - Contact - - - */
 
-.social-icon {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+.contact-grid {
+  margin: 4.6875% 0 0 0;
+}
+
+.contact-justify{
+  flex: 1;
 }
 
 .social-title {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  font-weight: 100;
-  color: #E0E0E0;
+  font-weight: 400;
+  color: #F7484E;
 }
 
 .contact-bottom-padding {
