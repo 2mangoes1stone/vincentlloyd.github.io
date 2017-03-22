@@ -1,7 +1,16 @@
-* {
-  box-sizing: border-box;
+body {
+    max-width: 100%;
+    min-width: 320px;
+    min-height: 1000px;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #E8122F;
+    /*-webkit-font-smoothing: antialiased;*/
 }
 
+/** {
+  box-sizing: border-box;
+}*/
 .item {
   width: 200px;
   height: 200px;
@@ -11,14 +20,6 @@
   text-align: center;
   color: #FFF;
   font-size: 3em;
-}
-
-body {
-    min-width: 320px;
-    min-height: 1000px;
-    margin: 0 !important;
-    padding: 0 !important;
-    background-color: #E8122F;
 }
 
 .flex {
@@ -40,12 +41,16 @@ body {
 }
 
 #toolbar {
-  padding-top: 15px;
-  padding-right: 15px;
+  width:100%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0%;
+  padding: 15 15 15 15;
+  background-color: #E8122F;
 }
 
 #contact-icon {
-  margin-bottom: 10px;
+  margin-right: 15px;
 }
 
 #nav-icon {
@@ -60,9 +65,9 @@ body {
 
 #intro-text {
   margin: 14.0625% 0 0 10.9375%;
-  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
   /*font-family: 'Scope One', serif;*/
-  font-family: 'Abel', sans-serif;
+  /*font-family: 'Abel', sans-serif;*/
   font-size: 24px;
   font-weight: 100;
   color: #E0E0E0;
@@ -72,7 +77,6 @@ body {
   margin: 0 4.6875% 0 4.6875%;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  /*font-family: 'Oswald', sans-serif;*/
   font-size: 86px;
   font-weight: 900;
   color: #E0E0E0;

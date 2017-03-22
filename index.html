@@ -8,6 +8,7 @@
     <meta name="title" content="ben elphinstone · web developer / designer / night owl"/>
     <meta name="author" content="Ben Elphinstone (http://www.elphe.io)"/>
     <meta name="keywords" content="ben elphinstone, melbourne, developer, designer, design, portfolio, programmer, programming, coder, coding, ruby, rails, html, css, sass, javascript, jquery, node.js, react.js, mongodb, sketch, photoshop, illustrator, adobe, apps, web applications, bootcamp"/>
+    <title>ben elphinstone · web developer / designer / night owl</title>
 
     <!-- Open Graph markup -->
     <meta property="og:type" content="website"/>
@@ -23,45 +24,63 @@
 
     <!-- CSS-->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="hover.css">
     <!-- <link href="http://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet"> -->
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
-    <title>
-      ben elphinstone · web developer / designer
-    </title>
+
   </head>
 
   <body>
     <div id="content">
-        <div id="toolbar">
-          <img id="contact-icon" class="toolbar-icon" src="images/contact-icon.svg" title="contact me">
-          <img class="toolbar-icon" src="images/colour-icon.svg">
-        </div>
-      <h1 id="intro-text" class="foreground">I&apos;m an<br>aspiring web<br>developer and<br>designer based<br>in Melbourne,<br>Australia.</h1>
-      <img id="nav-icon" src="images/nav-icon.svg">
+
+
+
+      <h1 id="intro-text" class="foreground">
+        I&apos;m an<br>
+        aspiring web<br>
+        developer and<br>
+        designer based<br>
+        in Melbourne,<br>
+        Australia.
+      </h1>
+      <a href="#about">
+        <img id="nav-icon" class="hvr-grow"src="images/nav-icon.svg">
+      </a>
 
       <img id="big-name" src="images/big-name.svg">
 
-      <!-- MAIN SECTION: ABOUT -->
-      <p class="section-header item" data-aos="flip-up">about</p>
+
+      <!-- Toolbar -->
+      <div id="toolbar">
+        <div class="flex">
+          <img class="toolbar-icon hvr-grow" src="images/colour-icon.svg">
+          <a href="#contact">
+            <img id="contact-icon" class="toolbar-icon hvr-grow" src="images/contact-icon.svg" title="contact me">
+          </a>
+        </div>
+      </div>
+
+      <!-- MAIN SECTION: About -->
+      <p class="section-header" data-aos="flip-up">
+        <a name="about">about</a>
+      </p>
 
       <p class="body-text">I'm an aspiring web developer with a background in architectural design and operations management.</p>
       <p class="body-text">I am interested in the automation and digitisation of business using internet enabled technologies.</p>
       <p class="body-text">The robots are coming and I, for one, intend to be their friend.</p>
 
-      <!-- MAIN SECTION: SKILLS -->
+      <!-- MAIN SECTION: Skills -->
       <p class="section-header">skills</p>
 
       <!-- Education -->
       <p class="block-header">Eduction</p>
-
-      <p class="edu-header"><b>B. Architecture</p>
+      <p class="edu-header">B. Architecture</p>
       <p class="body-text">Qld Univeristy of Technology</p>
       <p class="edu-header">Dip. Information Technology</p>
       <p class="body-text">Coder Factory Academy</p>
@@ -136,6 +155,15 @@
       <div class="item" data-aos="flip-down">9</div>
       <div class="item" data-aos="flip-right">10</div>
       <div class="item" data-aos="flip-left">11</div>
+
+      <!-- MAIN SECTION: WORK -->
+      <p class="section-header">
+        <a name="contact">contact</a>
+      </p>
+      <div class="flex col">
+        <div class="flex">
+        </div>
+      </div>
     </div>
 
     <!-- JS -->
