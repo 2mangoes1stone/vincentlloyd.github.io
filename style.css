@@ -168,6 +168,10 @@ p.skill-item {
   margin: 4.6875% 0 0 0;
 }
 
+.half-width {
+  width: 50%;
+}
+
 .contact-justify{
   flex: 1;
   margin: auto;
