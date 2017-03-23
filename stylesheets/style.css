@@ -202,7 +202,7 @@ p.skill-item {
 }
 
 .contact-grid {
-  margin:0;
+  min-height: 68%
 }
 
 .social-title {
@@ -218,13 +218,15 @@ p.skill-item {
 }
 
 .contact-top-row {
-  margin: 12% 12% 0 12%;
-  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .contact-btm-row {
-  margin: 0% 12% 12% 12%;
-  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+  justify-content: space-around;
 }
 
  /*- - - Breakpoints - - - */
