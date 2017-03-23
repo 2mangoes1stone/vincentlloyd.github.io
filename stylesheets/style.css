@@ -137,7 +137,6 @@ a:visited {
   font-size: 20px;
   font-weight: 400;
   color: #F7484E;
-
 }
 
 .edu-header {
@@ -182,12 +181,34 @@ p.skill-item {
 
 .project-container {
   width: 66%;
-  height: 200px;
+  /*height: 200px;*/
   margin: 0 auto 0 auto;
-  background: #FFFFFF;
-  color: #292929;
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
+}
+
+.project-title {
+  margin: 9.375% 0 9.375% 0;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #F7484E;
+}
+
+.project-image {
+  max-width:100px;
+}
+
+.project-blurb {
+  margin: 9.375% 0 9.375% 0;
+  /*margin-left: 4.6875%;
+  margin-right: 4.6875%;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: #FFFFFF;
+  background-color: #292929;
 }
 
 /* - - - Contact - - - */
