@@ -1,3 +1,14 @@
+input[type=button] {
+    color:#08233e;
+    font-size:70%;
+    /* ... other rules ... */
+    cursor:pointer;
+}
+
+input[type=button]:hover {
+    background-color:rgba(255,204,0,0.8);
+}
+
 body {
     max-width: 100vw;
     min-width: 320px;
@@ -37,6 +48,14 @@ body {
   display: block;
 }
 
+a:link {
+  text-decoration:  none;
+}
+
+a:visited {
+  text-decoration:  none;
+}
+
 /* - - - Toolbar - - - */
 
 #toolbar {
@@ -69,7 +88,10 @@ body {
 
 #nav-icon {
   display: block;
-  margin: 14.6875% auto 4.6875% auto;
+}
+
+.nav-icon-container {
+  height: 138px;
 }
 
 #big-name {
@@ -80,7 +102,7 @@ body {
 }
 
 #intro-text {
-  padding: 14.0625% 0 0 10.9375%;
+  padding: 37.5% 0 0 10.9375%;
   font-family: 'Roboto', sans-serif;
   /*font-family: 'Scope One', serif;*/
   /*font-family: 'Abel', sans-serif;*/
@@ -145,6 +167,7 @@ body {
   font-size: 18px;
   font-weight: 100;
   color: #FFFFFF;
+  background-color: #292929;
 }
 
 p.skill-item {
@@ -169,41 +192,39 @@ p.skill-item {
 
 /* - - - Contact - - - */
 
-.contact-grid {
-  margin: 4.6875% 0 0 0;
-}
-
-.half-width {
-  width: 50%;
-}
-
-.contact-justify{
-  flex: 1;
-  margin: auto;
-}
-
-.social-title {
-  margin-top: 4.6875%;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #F7484E;
-}
-
-.icon-space-left {
-  margin-left: 34%;
-  margin-right: 66%;
-}
-
 .contact-body-text {
-  margin: 4.6875% 0 4.6875% 0;
-  /*margin-left: 4.6875%;
-  margin-right: 4.6875%;*/
+  margin-top: 9.375%;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 100;
   color: #FFFFFF;
+}
+
+.contact-grid {
+  margin:0;
+}
+
+.social-title {
+  margin-top: 9.375%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: #E0E0E0;
+}
+
+.icon-container {
+  min-height: 120px;
+}
+
+.contact-top-row {
+  margin: 12% 12% 0 12%;
+  justify-content: space-between;
+}
+
+.contact-btm-row {
+  margin: 0% 12% 12% 12%;
+  justify-content: space-between;
 }
 
  /*- - - Breakpoints - - - */

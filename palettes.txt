@@ -1,0 +1,48 @@
+[ [#e0e0e0,#e8122f], [#000000, #f9cd43], [#e8122f, #000000] [#2e00fd, #ff9600], [#e8122f, #e0e0e0], [#003967, #f2b300], [#00613f, #ff6141], [#f9cd43, #e8122f], [#14f7a4, #292929], [#292929, #f7484e] ]
+
+$black: #000000;
+$maize: #f9cd43;
+
+$pinkish-red: #e8122f;
+$black: #000000;
+
+$strong-blue: #2e00fd;
+$tangerine: #ff9600;
+
+$pinkish-red: #e8122f;
+$white: #e0e0e0;
+
+$marine-blue: #003967;
+$yellow-orange: #f2b300;
+
+$dark-blue-green: #00613f;
+$pinkish-orange: #ff6141;
+
+$maize: #f9cd43;
+$pinkish-red: #e8122f;
+
+$bright-sea-green: #14f7a4;
+$black: #292929;
+
+$black: #292929;
+$watermelon: #f7484e;
+
+$reddish-pink: #ff2d60;
+$marine-blue: #00345a;
+$white: #ffffff;
+
+$grape-purple: #2f1750;
+$red-orange: #ff3a00;
+$white: #ffffff;
+
+$watermelon: #f7484e;
+$black: #292929;
+$white: #ffffff;
+
+$pinkish-orange: #ff6141;
+$dark-blue-green: #00613f;
+$white: #ffffff;
+
+$yellow-orange: #f2b300;
+$orange: #f46719;
+$white: #ffffff;
