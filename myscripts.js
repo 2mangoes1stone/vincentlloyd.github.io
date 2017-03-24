@@ -36,13 +36,13 @@ function setColour() {
 
 // Toolbar show
 document.addEventListener("scroll", function() {
-  if (window.pageYOffset > 200)
+  if (window.pageYOffset > 41)
     document.getElementById('toolbar').style.display = "block";
 });
 
 // Toolbar hide
 document.addEventListener("scroll", function() {
-  if (window.pageYOffset < 200)
+  if (window.pageYOffset < 41)
     document.getElementById('toolbar').style.display = "none";
 });
 
