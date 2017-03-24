@@ -21,12 +21,22 @@ body {
 }
 
 .fs-container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 }
 
 .fs-container.fixed {
   max-height: 100vh;
+}
+
+.third-container {
+  height: 34vh;
+  width: 100vw;
+}
+
+.eighth-container {
+  height: 12.5vh;
+  width: 100vw;
 }
 
 .flex {
@@ -40,8 +50,13 @@ body {
   text-align: center;
 }
 
+.flex.col.table {
+  flex-direction: column;
+  justify-content: center;
+}
+
 .flex.table-row {
-  margin-top: 4.6875%
+  margin: 9.375% 4.6875% 9.375%  4.6875%
 }
 
 .icon {
@@ -131,16 +146,20 @@ a:visited {
 }
 
 .block-header {
+  margin-bottom: 4.6875%;
+  display: inline;
   margin-left: 4.6875%;
   margin-right: 4.6875%;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  font-weight: 400;
-  color: #F7484E;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #292929;
+  background-color: #F7484E;
 }
 
 .edu-header {
-  margin: 0 4.6875% 0 4.6875%;
+  margin: 4.6875%;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -160,28 +179,28 @@ a:visited {
 
 .body-text {
   margin: 4.6875%;
-  /*margin-left: 4.6875%;
-  margin-right: 4.6875%;*/
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 100;
+  line-height: 1.5;
   color: #FFFFFF;
   background-color: #292929;
 }
 
 p.skill-item {
-  margin: 0 0 0 0;
+  margin: 4.6875%;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #F7484E;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: left;
+  color: #FFFFFF;
+  background-color: #292929;
 }
 
 /* - - - Work - - - */
 
 .project-container {
-  width: 66%;
-  /*height: 200px;*/
+  width: 75%;
   margin: 0 auto 0 auto;
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
@@ -189,7 +208,7 @@ p.skill-item {
 
 .project-title {
   margin: 9.375% 0 9.375% 0;
-  line-height: 1.5;
+  line-height: 1.3;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -202,8 +221,7 @@ p.skill-item {
 
 .project-blurb {
   margin: 9.375% 0 9.375% 0;
-  /*margin-left: 4.6875%;
-  margin-right: 4.6875%;*/
+  line-height: 1.5;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 100;
@@ -213,14 +231,14 @@ p.skill-item {
 
 /* - - - Contact - - - */
 
-.contact-body-text {
+/*.contact-body-text {
   margin-top: 9.375%;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 100;
-  color: #FFFFFF;
-}
+  color: #F7484E;
+}*/
 
 .contact-grid {
   min-height: 68%
