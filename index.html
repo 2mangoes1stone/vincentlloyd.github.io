@@ -15,10 +15,13 @@
     <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="ben elphinstone · web developer  / designer / night owl"/>
     <meta property="og:title" content="ben elphinstone · web developer / designer / night owl"/>
-    <meta property="og:description" content="Ben Elphinstone's Portfolio · Melbourne, Australia based web developer / designer / night owl."/>
-    <meta property="og:image" content=" XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX "/>
+    <meta property="og:description" content="Ben Elphinstone's Portfolio · Melbourne, Australia based web developer / designer / night owl  "/>
+    <meta property="og:image" content="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"/>
     <meta property="og:url" content="http://www.elphe.io"/>
     <meta property="og:locale" content="en_GB"/>
+
+    <!-- Google verification -->
+    <meta name="google-site-verification" content="l7cot07h5U2BCXkSNGk0BFA-_UVjHSQy3gZbH8xDI0Q" />
 
     <!-- JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -38,230 +41,212 @@
   </head>
 
   <body>
-    <div class="content">
 
-      <!-- Toolbar -->
-      <div id="toolbar">
-        <div class="flex">
-          <img id="colour-icon" class="icon hvr-grow" src="images/nav-colour.svg" alt="colour picker">
-          <a href="#contact">
-            <img id="contact-icon" class="icon hvr-grow" src="images/nav-contact.svg" title="contact me" alt="contact me">
+    <!-- Toolbar -->
+    <div id="toolbar">
+      <div class="flex">
+        <img id="colour-icon" class="icon hvr-grow" src="images/nav-colour.svg" alt="colour picker">
+        <a href="#contact">
+          <img id="contact-icon" class="icon hvr-grow" src="images/nav-contact-1px.svg" title="contact me" alt="contact me">
+        </a>
+      </div>
+    </div>
+
+    <!-- MAIN SECTION: Home -->
+    <div class="vh100">
+      <h1 id="intro-text" class="foreground">
+        I&apos;m an<br>
+        aspiring web<br>
+        developer and<br>
+        designer living<br>
+        in Melbourne,<br>
+        Australia.
+      </h1>
+
+      <div class="flex col nav-icon-container">
+        <a href="#about">
+          <img id="nav-icon" class="hvr-grow" src="images/nav-icon-1px.svg" alt="about me">
+        </a>
+      </div>
+      <img id="big-name" src="images/big-name.svg" alt="my name">
+    </div>
+
+    <!-- MAIN SECTION: About -->
+    <div class="section-container">
+      <div class="vh43"></div>
+      <p class="section-header">about</p>
+      <div class="vh43">
+        <a id="about"></a>
+      </div>
+      <p class="basic-text">I'm an aspiring web developer with a background in architectural design and operations management.</p>
+      <p class="basic-text">I am interested in the automation and digitisation of business using internet enabled technologies.</p>
+      <p class="basic-text">The robots are coming and I, for one, intend to be their friend.</p>
+
+      <p class="basic-text"> "I do not fear computers, I fear the lack of them."</p>
+      <p class="basic-text" style="text-align:right" style="padding-right:9.375%">- Isaac Asimov</p>
+    </div>
+
+    <!-- MAIN SECTION: Skills -->
+    <div class="section-container">
+      <div class="vh43"></div>
+      <p class="section-header">skills</p>
+      <div class="vh43"></div>
+
+      <!-- Education -->
+      <p class="block-header">&nbsp;&nbsp;Education&nbsp;&nbsp;</p>
+      <p class="edu-header">Dip. Information Technology</p>
+      <p class="basic-text">Coder Factory Academy</p>
+      <p class="edu-header">B. Architecture</p>
+      <p class="basic-text">Qld University of Technology</p>
+
+      <div class="vh12-5"></div>
+
+      <!-- Dev skills -->
+      <p class="block-header">&nbsp;&nbsp;Development&nbsp;&nbsp;</p>
+
+      <div class="flex table-row">
+        <p class="skill-header">OOP</p>
+        <div class="flex col">
+          <p class="skill-item">Python</p>
+          <p class="skill-item">Ruby</p>
+        </div>
+      </div>
+
+      <div class="flex table-row">
+        <p class="skill-header">JavaScript</p>
+        <div class="flex col">
+          <p class="skill-item">Node.js</p>
+          <p class="skill-item">React</p>
+        </div>
+      </div>
+
+      <div class="flex table-row">
+        <p class="skill-header">Database</p>
+        <div class="flex col">
+          <p class="skill-item">MongoDB</p>
+        </div>
+      </div>
+
+      <div class="flex table-row">
+        <p class="skill-header">Webpage</p>
+        <div class="flex col">
+          <p class="skill-item">HTML5</p>
+          <p class="skill-item">CSS3</p>
+          <p class="skill-item">Sass</p>
+        </div>
+      </div>
+
+      <div class="vh12-5"></div>
+
+      <!-- Design skills -->
+      <p class="block-header">&nbsp;Design&nbsp;</p>
+
+      <div class="flex table-row">
+        <p class="skill-header">Graphic</p>
+        <div class="flex col table">
+          <p class="skill-item">Photoshop</p>
+          <p class="skill-item">Illustrator</p>
+          <p class="skill-item">InDesign</p>
+        </div>
+      </div>
+
+      <div class="flex table-row">
+        <p class="skill-header">UI / UX</p>
+        <div class="flex col">
+          <p class="skill-item">Axure</p>
+          <p class="skill-item">Sketch</p>
+        </div>
+      </div>
+
+      <div class="flex table-row">
+        <p class="skill-header">3D Modelling</p>
+        <div class="flex col">
+          <p class="skill-item">AutoCAD</p>
+          <p class="skill-item">ArchiCAD</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN SECTION: Work -->
+    <div class="section-container">
+      <div class="vh43"></div>
+      <p class="section-header">work</p>
+      <div class="vh43"></div>
+
+      <!-- Project 1-->
+      <div class="flex col">
+        <div class="flex col project-container">
+          <!-- data-aos="fade-left" -->
+          <img src="images/bob-gough.png" width="70%">
+          <p class="project-title">Mystery Project</p>
+          <p class="project-blurb">A Python powered peregrination through time to poll the prevalence of the Royal Commission in Australian politics. Royal commissions and the Prime Ministers who commissioned them.</p>
+        </div>
+      </div>
+
+      <!-- Project 2-->
+      <div class="flex col">
+        <div class="flex col project-container">
+          <!-- data-aos="fade-right" -->
+          <img src="images/willy.png" width="50%">
+          <p class="project-title">Willy Shakes&apos; Ye Olde<br>T-shirt Shoppe</p>
+          <p class="project-blurb">A small Ruby app built to put The Bard back in business! Customer accounts, password validation, stock control and an amazing UI experience.</p>
+        </div>
+      </div>
+
+      <!-- Project 3-->
+      <div class="flex col">
+        <div class="flex col project-container">
+          <!-- data-aos="fade-right" -->
+          <p class="project-title">The Suppository of All (My) Knowledge</p>
+          <img src="images/tappy-cat-lrg.gif" width="60%">
+          <p class="project-blurb">A collection of training exercises executed as part of my bid to achieve competancy in wielding the light sabre that is Ruby.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN SECTION: Contact -->
+    <div class="section-container">
+      <div class="vh43"></div>
+      <p class="section-header">
+        <a id="contact">contact</a>
+      </p>
+      <div class="vh43"></div>
+      <div class="vh100 fixed col">
+
+        <!-- Contact links - first row -->
+        <div class="flex contact-top-row">
+          <a href="https://github.com/vincentlloyd" target="_blank">
+            <div class="flex col icon-container">
+              <img class="icon" src="images/contact-github.svg" title="Visit me on GitHub" alt="Ben on GitHub">
+              <p class="social-title">Github</p>
+            </div>
+          </a>
+          <a href="https://au.linkedin.com/in/benjamin-elphinstone-3192a5119" target="_blank">
+            <div class="flex col icon-container">
+              <img class="icon" src="images/contact-linkedin.svg" title="Visit me on LinkedIn" alt="Ben on LinkedIn">
+              <p class="social-title">LinkedIn</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Contact links - second row -->
+        <div class="flex contact-btm-row">
+          <a href="https://twitter.com/benelphinstone">
+            <div class="flex col icon-container">
+              <img class="icon" src="images/contact-twitter.svg" title="Visit me on Twitter" alt="Ben on Twitter">
+              <p class="social-title">Twitter</p>
+            </div>
+          </a>
+          <a href="mailto:benelphinstone@gmail.com" target="_blank">
+            <div class="flex col icon-container">
+              <img class="icon" src="images/contact-email.svg" title="Send me an email"
+              alt="Send Ben an email">
+              <p class="social-title">Email</p>
+            </div>
           </a>
         </div>
       </div>
-
-      <!-- Home screen (full screen)-->
-      <div class="fs-container">
-        <h1 id="intro-text" class="foreground">
-          I&apos;m an<br>
-          aspiring web<br>
-          developer and<br>
-          designer based<br>
-          in Melbourne,<br>
-          Australia.
-        </h1>
-
-        <div class="flex col nav-icon-container">
-          <a href="#about">
-            <img id="nav-icon" class="hvr-grow" src="images/nav-down.svg" alt="about me">
-          </a>
-        </div>
-
-        <img id="big-name" src="images/big-name.svg" alt="my name">
-      </div>
-
-
-      <!-- MAIN SECTION: About -->
-      <div class="section-container">
-        <div class="third-container"></div>
-        <div class="about-anchor">
-          <a id="about"></a>
-        </div>
-        <p class="section-header">about</p>
-        <div class="third-container"></div>
-
-        <p class="body-text">I'm an aspiring web developer with a background in architectural design and operations management.</p>
-        <p class="body-text">
-
-
-
-          I am interested in the automation and digitisation of business using internet enabled technologies.</p>
-        <p class="body-text">The robots are coming and I, for one, intend to be their friend.</p>
-
-        <p class="body-text"> "I do not fear computers, I fear the lack of them."</p>
-        <p class="body-text" style="text-align:right" style="padding-right:9.375%">- Isaac Asimov</p>
-      </div>
-
-      <!-- MAIN SECTION: Skills -->
-      <div class="section-container">
-        <div class="third-container"></div>
-        <p class="section-header">skills</p>
-        <div class="third-container"></div>
-
-        <!-- Education -->
-        <p class="block-header">&nbsp;&nbsp;Education&nbsp;&nbsp;</p>
-        <p class="edu-header">Dip. Information Technology</p>
-        <p class="body-text">Coder Factory Academy</p>
-        <p class="edu-header">B. Architecture</p>
-        <p class="body-text">Qld University of Technology</p>
-
-        <div class="eighth-container"></div>
-
-        <!-- Dev skills -->
-        <p class="block-header">&nbsp;&nbsp;Development&nbsp;&nbsp;</p>
-
-        <div class="flex table-row">
-          <p class="skill-header">OOP</p>
-          <div class="flex col">
-            <p class="skill-item">Python</p>
-            <p class="skill-item">Ruby</p>
-          </div>
-        </div>
-
-        <div class="flex table-row">
-          <p class="skill-header">JavaScript</p>
-          <div class="flex col">
-            <p class="skill-item">Node.js</p>
-            <p class="skill-item">React</p>
-          </div>
-        </div>
-
-        <div class="flex table-row">
-          <p class="skill-header">Database</p>
-          <div class="flex col">
-            <p class="skill-item">MongoDB</p>
-          </div>
-        </div>
-
-        <div class="flex table-row">
-          <p class="skill-header">Webpage</p>
-          <div class="flex col">
-            <p class="skill-item">HTML5</p>
-            <p class="skill-item">CSS3</p>
-            <p class="skill-item">Sass</p>
-          </div>
-        </div>
-
-        <div class="eighth-container"></div>
-
-        <!-- Design skills -->
-        <p class="block-header">&nbsp;Design&nbsp;</p>
-
-        <div class="flex table-row">
-          <p class="skill-header">Graphic</p>
-          <div class="flex col table">
-            <p class="skill-item">Photoshop</p>
-            <p class="skill-item">Illustrator</p>
-            <p class="skill-item">InDesign</p>
-          </div>
-        </div>
-
-        <div class="flex table-row">
-          <p class="skill-header">UI / UX</p>
-          <div class="flex col">
-            <p class="skill-item">Axure</p>
-            <p class="skill-item">Sketch</p>
-          </div>
-        </div>
-
-        <div class="flex table-row">
-          <p class="skill-header">3D Modelling</p>
-          <div class="flex col">
-            <p class="skill-item">AutoCAD</p>
-            <p class="skill-item">ArchiCAD</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="section-container">
-        <div class="third-container"></div>
-        <!-- MAIN SECTION: Work -->
-        <p class="section-header">work</p>
-        <div class="third-container"></div>
-
-        <!-- Project 1-->
-        <div class="flex col">
-          <div class="flex col project-container">
-            <!-- data-aos="fade-left" -->
-            <p class="project-title">Mystery Project</p>
-            <img src="images/bob-gough.png" width="70%">
-            <p class="project-blurb">An historical journey powered by Python into the history of the royal commission in Australian political life. Royal commissions and the Prime Ministers who commissioned them AND all this in the one place...so convenince!</p>
-          </div>
-        </div>
-
-        <!-- Project 2-->
-        <div class="flex col">
-          <div class="flex col project-container">
-            <!-- data-aos="fade-right" -->
-            <p class="project-title">Willy Shakes&apos; Ye Olde<br>T-shirt Shoppe</p>
-            <img src="images/willy.png" width="50%">
-            <p class="project-blurb">A small Ruby app built to put The Bard back in business! Customer accounts, password validation, stock control and an amazing UI experience.</p>
-          </div>
-        </div>
-
-        <!-- Project 3-->
-        <div class="flex col">
-          <div class="flex col project-container">
-            <!-- data-aos="fade-right" -->
-            <p class="project-title">The Suppository of All (My) Knowledge</p>
-            <img src="images/tappy-cat.gif" width="60%">
-            <p class="project-blurb">A collection of small yet challlenging exercises undertaken on my road to competancy in wielding the light sabre that is Ruby. If you've made it this far, why not take a peek‽ </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- MAIN SECTION: Contact -->
-      <div class="third-container"></div>
-        <p class="section-header">
-          <a id="contact">contact</a>
-        </p>
-        <div class="third-container"></div>
-        <div class="fs-container fixed col" style="height:80vh">
-
-          <!-- <div>contact</d> -->
-        <!-- <p class="contact-body-text">Find me on...</p> -->
-
-        <!-- Contact icons grid -->
-        <div class="flex col contact-grid">
-
-          <!-- Social links - first row -->
-          <div class="flex contact-top-row">
-            <a href="https://github.com/vincentlloyd" target="_blank">
-              <div class="flex col icon-container">
-                <img class="icon" src="images/social-github.svg" title="Visit me on GitHub" alt="Ben on GitHub">
-                <p class="social-title">Github</p>
-              </div>
-            </a>
-            <a href="https://au.linkedin.com/in/benjamin-elphinstone-3192a5119" target="_blank">
-              <div class="flex col icon-container">
-                <img class="icon" src="images/social-linkedin.svg" title="Visit me on LinkedIn" alt="Ben on LinkedIn">
-                <p class="social-title">LinkedIn</p>
-              </div>
-            </a>
-          </div>
-
-          <!-- Social links - second row -->
-          <div class="flex contact-btm-row">
-            <a href="https://twitter.com/benelphinstone">
-              <div class="flex col icon-container">
-                <img class="icon" src="images/social-twitter.svg" title="Visit me on Twitter" alt="Ben on Twitter">
-                <p class="social-title">Twitter</p>
-              </div>
-            </a>
-            <a href="mailto:benelphinstone@gmail.com" target="_blank">
-              <div class="flex col icon-container">
-                <img class="icon" src="images/social-email.svg" title="Send me an email"
-                alt="Send Ben an email">
-                <p class="social-title">Email</p>
-              </div>
-            </a>
-          </div>
-          <!-- <input type="button" id="btnSearch" value="Search" onclick="GetValue();" />
-          <p id="message" class="body-text" >hello</p>
-          <div class="toolbar-padding"></div> -->
-        </div>
-      <!-- END: Contact section -->
-      </div>
+    <!-- END: Contact section -->
     </div>
 
     <!-- JS -->
@@ -269,3 +254,8 @@
     <script type='text/javascript' src="myscripts.js"></script>
   </body>
 </html>
+
+
+<!-- <input type="button" id="btnSearch" value="Search" onclick="GetValue();" />
+<p id="message" class="basic-text" >hello</p>
+<div class="toolbar-padding"></div> -->
