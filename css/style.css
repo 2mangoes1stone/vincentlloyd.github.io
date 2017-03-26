@@ -180,7 +180,6 @@ a:visited {
 
 .basic-text {
   margin: 9.375%;
-  /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Scope One', serif;
   font-size: 18px;
   font-weight: 100;
@@ -188,9 +187,39 @@ a:visited {
   color: #E0E0E0;
 }
 
+.quote-block {
+  margin: 9.375%;
+  padding: 4px;
+
+}
+
+.quote-fill {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.quote-text {
+  font-family: 'Scope One', serif;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+
+.quote-text.auth {
+  font-size: 14px;
+  text-align: right;
+  font-style: italic;
+}
+
 p.skill-item {
-  margin: 4.6875%;
-  font-family: 'Roboto', sans-serif;
+  margin: 9.375%;
+  font-family: 'Scope One', serif;
   font-size: 18px;
   font-weight: 100;
   text-align: left;
