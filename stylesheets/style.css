@@ -10,31 +10,31 @@ input[type=button]:hover {
 }
 
 body {
+    font-size: 100%;
     max-width: 100vw;
     min-width: 320px;
     background-color: #292929;
     /*-webkit-font-smoothing: antialiased;*/
 }
 
-.content {
-  max-width: 100vw;
-}
+/* - - - Padding / container divs - - - */
 
-.fs-container {
+.vh100 {
   min-height: 100vh;
   width: 100vw;
 }
 
-.fs-container.fixed {
+.vh100.fixed {
   max-height: 100vh;
+  width: 100vw;
 }
 
-.third-container {
+.vh43 {
   height: 43vh;
   width: 100vw;
 }
 
-.eighth-container {
+.vh12-5 {
   height: 12.5vh;
   width: 100vw;
 }
@@ -59,10 +59,6 @@ body {
   margin: 9.375% 4.6875% 9.375%  4.6875%
 }
 
-.icon {
-  display: block;
-}
-
 a:link {
   text-decoration:  none;
 }
@@ -82,6 +78,14 @@ a:visited {
   background-color: #292929;
 }
 
+.toolbar-padding {
+  min-height: 41px;
+}
+
+.icon {
+  display: block;
+}
+
 #colour-icon {
   margin-top: 7px;
   margin-right: auto;
@@ -95,10 +99,6 @@ a:visited {
   margin-left: auto;
 }
 
-.toolbar-padding {
-  min-height: 41px;
-}
-
 /* - - - Home page - - - */
 
 #nav-icon {
@@ -106,7 +106,7 @@ a:visited {
 }
 
 .nav-icon-container {
-  height: 138px;
+  height: 24.3vh;
 }
 
 #big-name {
@@ -118,12 +118,13 @@ a:visited {
 
 #intro-text {
   padding: 37.5% 0 0 10.9375%;
-  font-family: 'Roboto', sans-serif;
-  /*font-family: 'Scope One', serif;*/
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Scope One', serif;
   /*font-family: 'Abel', sans-serif;*/
-  font-size: 24px;
+  line-height: 1.3;
+  font-size: 0.8125em;
   font-weight: 100;
-  color: #F7484E;
+  color: #E0E0E0;
 }
 
 /* - - - Text headers - - - */
@@ -135,7 +136,7 @@ a:visited {
   margin: 0;
   /*min-height: 101px;*/
   font-family: 'Roboto', sans-serif;
-  font-size: 86px;
+  font-size: 15vh;
   font-weight: 900;
   color: #F7484E;
   background-color: #292929;
@@ -177,14 +178,14 @@ a:visited {
 
 /* - - - - - - */
 
-.body-text {
-  margin: 4.6875%;
-  font-family: 'Roboto', sans-serif;
+.basic-text {
+  margin: 9.375%;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Scope One', serif;
   font-size: 18px;
   font-weight: 100;
   line-height: 1.5;
-  color: #FFFFFF;
-  background-color: #292929;
+  color: #E0E0E0;
 }
 
 p.skill-item {
@@ -226,7 +227,6 @@ p.skill-item {
   font-size: 18px;
   font-weight: 100;
   color: #FFFFFF;
-  background-color: #292929;
 }
 
 /* - - - Contact - - - */
