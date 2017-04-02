@@ -30,24 +30,22 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link href="http://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet">
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
   </head>
 
   <body>
-
-    <!-- Toolbar -->
+    <!-- ELEMENT: Toolbar -->
     <div id="toolbar">
       <div class="flex">
-        <img id="colour-icon" class="icon hvr-grow" src="images/nav-colour.svg" alt="colour picker">
+        <img id="colour-icon" class="block-icon hvr-grow" src="images/nav-colour.svg" alt="colour picker">
         <a href="#contact">
-          <img id="contact-icon" class="icon hvr-grow" src="images/nav-contact-1px.svg" title="contact me" alt="contact me">
+          <img id="contact-icon" class="block-icon hvr-grow" src="images/nav-contact-1px.svg" title="contact me" alt="contact me">
         </a>
       </div>
     </div>
@@ -71,165 +69,201 @@
       <img id="big-name" src="images/big-name.svg" alt="my name">
     </div>
 
+    <!-- ELEMENT: Asimov tile -->
+    <div>
+      <div class="h43vh"></div>
+      <!-- <div class="quote-tile"> -->
+        <div class="flex col">
+          <img class="scale-asimov" src="images/quote-asimov-bw.png" alt="isaac asimov">
+          <p class="quote-auth">- Isaac Asimov</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
     <!-- MAIN SECTION: About -->
     <div class="section-container">
-      <div class="vh43"></div>
+      <div class="h43vh"></div>
       <p class="section-header">about</p>
-      <div class="vh43">
+      <div class="h43vh">
         <a id="about"></a>
       </div>
 
-      <div class="flex col">
-        <img src="images/isaac.png" alt="isaac assimov" style="width:60vw">
-      </div>
-      <p class="quote-text auth">- Isaac Asimov</p>
-      <div class="vh12-5"></div>
+      <p class="basic-text">I'm an aspiring web developer currently studying the technologies of the MERN stack at a coding bootcamp in Melbourne.</p>
+      <p class="basic-text">I'm interested in technology, computers, architecture, design and art.
 
-      <p class="basic-text">I'm an aspiring web developer currently studying the technologies of the MERN stack at a bootcamp in Melbourne.</p>
-      <p class="basic-text">with a background in architectural design and operations management.</p>
+        with a background in architectural design and operations management.</p>
       <p class="basic-text">I am interested in the automation and digitisation of business using internet enabled technologies.</p>
       <p class="basic-text">The robots are coming and I, for one, intend to be their friend.</p>
     </div>
 
+    <!-- ELEMENT: Countdown timer -->
+    <div class="section-container">
+      <div class="h43vh"></div>
+      <div class="flex col">
+        <p class="bc-countdown title">bootcamp<br>graduation<br>countdown</p>
+        <div class="h5vh"></div>
+        <div class="flex col w100pc">
+          <div class="flex w100pc horizontal-fill">
+            <p id="day" class="bc-countdown value"></p>
+            <p class="bc-countdown unit">days</p>
+          </div>
+          <div class="flex w100pc horizontal-fill">
+            <p id="hr" class="bc-countdown value"></p>
+            <p class="bc-countdown unit">hours</p>
+          </div>
+          <div class="flex w100pc">
+            <p id="min" class="bc-countdown value"></p>
+            <p class="bc-countdown unit">mins</p>
+          </div>
+          <div class="flex w100pc">
+            <p id="sec" class="bc-countdown value"></p>
+            <p class="bc-countdown unit">secs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- MAIN SECTION: Skills -->
     <div class="section-container">
-      <div class="vh43"></div>
+      <div class="h43vh"></div>
       <p class="section-header">skills</p>
-      <div class="vh43"></div>
-
+      <div class="h43vh"></div>
       <!-- Education -->
-      <p class="block-header">&nbsp;&nbsp;Education&nbsp;&nbsp;</p>
-      <p class="edu-header">Dip. Information Technology</p>
-      <p class="basic-text">Coder Factory Academy</p>
-      <p class="edu-header">B. Architecture</p>
-      <p class="basic-text">Qld University of Technology</p>
-
-      <div class="vh12-5"></div>
-
+      <p class="skill-title">education</p>
+      <div class="flex col">
+        <p class="skill subtitle">Dip. Information Technology</p>
+        <p class="skill body">Coder Factory Academy</p>
+        <p class="skill subtitle">B. Architecture</p>
+        <p class="skill body">Qld University of Technology</p>
+      </div>
+      <div class="h12-5vh"></div>
       <!-- Dev skills -->
-      <p class="block-header">&nbsp;&nbsp;Development&nbsp;&nbsp;</p>
-
-      <div class="flex table-row">
-        <p class="skill-header">OOP</p>
-        <div class="flex col">
-          <p class="skill-item">Python</p>
-          <p class="skill-item">Ruby</p>
-        </div>
+      <p class="skill-title">development</p>
+      <div class="flex col skills">
+        <p class="skill subtitle">Languages</p>
+        <p class="skill body">CSS  /  HTML  /  JavaScript  /  Python  /  Ruby</p>
       </div>
-
-      <div class="flex table-row">
-        <p class="skill-header">JavaScript</p>
-        <div class="flex col">
-          <p class="skill-item">Node.js</p>
-          <p class="skill-item">React</p>
-        </div>
+      <div class="flex col">
+        <p class="skill subtitle">Frameworks</p>
+        <p class="skill body">Express.js  /  Rails  /  React.js</p>
       </div>
-
-      <div class="flex table-row">
-        <p class="skill-header">Database</p>
-        <div class="flex col">
-          <p class="skill-item">MongoDB</p>
-        </div>
+      <div class="flex col">
+        <p class="skill subtitle">Environments</p>
+        <p class="skill body">Node.js</p>
       </div>
-
-      <div class="flex table-row">
-        <p class="skill-header">Webpage</p>
-        <div class="flex col">
-          <p class="skill-item">HTML5</p>
-          <p class="skill-item">CSS3</p>
-          <p class="skill-item">Sass</p>
-        </div>
+      <div class="flex col">
+        <p class="skill subtitle">Databases</p>
+        <p class="skill body">MongoDB</p>
       </div>
-
-      <div class="vh12-5"></div>
-
+      <div class="h12-5vh"></div>
       <!-- Design skills -->
-      <p class="block-header">&nbsp;Design&nbsp;</p>
-
-      <div class="flex table-row">
-        <p class="skill-header">Graphic</p>
-        <div class="flex col table">
-          <p class="skill-item">Photoshop</p>
-          <p class="skill-item">Illustrator</p>
-          <p class="skill-item">InDesign</p>
-        </div>
+      <p class="skill-title">design</p>
+      <div class="flex col">
+        <p class="skill subtitle">UI / UX</p>
+        <p class="skill body">Axure  /  Sketch</p>
+      </div>
+      <div class="flex col">
+        <p class="skill subtitle">Graphics / Illustration</p>
+        <p class="skill body">Illustrator  /  Photoshop</p>
+      </div>
+      <div class="flex col">
+        <p class="skill subtitle">Layout  /  Publishing</p>
+        <p class="skill body">Acrobat  /  InDesign</p>
+      </div>
+      <div class="flex col">
+        <p class="skill subtitle">BIM / CAD</p>
+        <p class="skill body">ArchiCAD  /  AutoCAD</p>
       </div>
 
-      <div class="flex table-row">
-        <p class="skill-header">UI / UX</p>
-        <div class="flex col">
-          <p class="skill-item">Axure</p>
-          <p class="skill-item">Sketch</p>
-        </div>
-      </div>
+    </div>
 
-      <div class="flex table-row">
-        <p class="skill-header">3D Modelling</p>
-        <div class="flex col">
-          <p class="skill-item">AutoCAD</p>
-          <p class="skill-item">ArchiCAD</p>
-        </div>
+    <!-- ELEMENT: Maeda tile -->
+    <div>
+      <div class="h43vh"></div>
+      <div class="flex col">
+        <img class="scale-maeda" src="images/quote-maeda.png" alt="john maeda">
+        <p class="quote-auth">- John Maeda</p>
       </div>
     </div>
 
     <!-- MAIN SECTION: Work -->
     <div class="section-container">
-      <div class="vh43"></div>
+      <div class="h43vh"></div>
       <p class="section-header">work</p>
-      <div class="vh43"></div>
+      <div class="h43vh"></div>
 
       <!-- Project 1-->
       <div class="flex col">
         <div class="flex col project-container">
           <!-- data-aos="fade-left" -->
-          <img src="images/pm-bob-gough.png" width="70%">
-          <p class="project-title">Mystery Project</p>
-          <p class="project-blurb">A Python powered peregrination through time to poll the prevalence of the Royal Commission in Australian politics. Royal commissions and the Prime Ministers who commissioned them.</p>
+          <img src="images/work-bob-gough.png" width="95%">
+          <p class="project-title">&nbsp;mystery project&nbsp;</p>
+          <p class="project-blurb">A Python powered peregrination spanning past to present for the purpose of polling the prevalence of the Royal Commission as a feature of the Australian political landscape.</p>
         </div>
       </div>
+      <div class="h12-5vh"></div>
 
       <!-- Project 2-->
       <div class="flex col">
         <div class="flex col project-container">
           <!-- data-aos="fade-right" -->
-          <img src="images/willy.png" width="50%">
-          <p class="project-title">Willy Shakes&apos; Ye Olde<br>T-shirt Shoppe</p>
+          <img src="images/work-willy.png" width="50%">
+          <p class="project-title">willy shakes&apos; ye<br>olde t-shirt shoppe</p>
           <p class="project-blurb">A small Ruby app built to put The Bard back in business! Customer accounts, password validation, stock control and an amazing UI experience.</p>
         </div>
       </div>
+      <div class="h12-5vh"></div>
 
       <!-- Project 3-->
       <div class="flex col">
         <div class="flex col project-container">
           <!-- data-aos="fade-right" -->
-          <p class="project-title">The Suppository of All (My) Knowledge</p>
-          <img src="images/tappy-cat-lrg.gif" width="60%">
+          <p class="project-title">the suppository of<br>all (my) knowledge</p>
+          <img src="images/work-skywalker.png" width="60%">
           <p class="project-blurb">A collection of training exercises executed as part of my bid to achieve competancy in wielding the light sabre that is Ruby.</p>
         </div>
       </div>
     </div>
 
+    <!-- ELEMENT: Chan tile -->
+    <div>
+      <div class="h43vh"></div>
+      <div class="flex col">
+        <img class="scale-chan" src="images/quote-chan-bw.png" alt="jackie chan">
+        <p class="quote-auth">- Jackie Chan</p>
+      </div>
+    </div>
+
     <!-- MAIN SECTION: Contact -->
     <div class="section-container">
-      <div class="vh43"></div>
+      <div class="h43vh"></div>
       <p class="section-header">
         <a id="contact">contact</a>
       </p>
-      <div class="vh43"></div>
+      <div class="h43vh"></div>
       <div class="vh100 fixed col">
 
         <!-- Contact links - first row -->
         <div class="flex contact-top-row">
           <a href="https://github.com/vincentlloyd" target="_blank">
-            <div class="flex col icon-container">
-              <img class="icon" src="images/contact-github.svg" title="Visit me on GitHub" alt="Ben on GitHub">
-              <p class="social-title">Github</p>
+            <div class="flex col contact-tile">
+              <div class="icon-container">
+                <object type="image/svg+xml" data="images/contact-github.svg">
+                  Find me on GitHub
+                </object>
+              </div>
+              <p class="contact-subtitle">Github</p>
             </div>
           </a>
+          <!-- <div class="w16vw"></div> -->
           <a href="https://au.linkedin.com/in/benjamin-elphinstone-3192a5119" target="_blank">
-            <div class="flex col icon-container">
-              <img class="icon" src="images/contact-linkedin.svg" title="Visit me on LinkedIn" alt="Ben on LinkedIn">
-              <p class="social-title">LinkedIn</p>
+            <div class="flex col contact-tile">
+              <div class="icon-container">
+                <object type="image/svg+xml" data="images/contact-linkedin.svg">
+                  Find me on LinkedIn
+                </object>
+              </div>
+              <p class="contact-subtitle">LinkedIn</p>
             </div>
           </a>
         </div>
@@ -237,16 +271,24 @@
         <!-- Contact links - second row -->
         <div class="flex contact-btm-row">
           <a href="https://twitter.com/benelphinstone">
-            <div class="flex col icon-container">
-              <img class="icon" src="images/contact-twitter.svg" title="Visit me on Twitter" alt="Ben on Twitter">
-              <p class="social-title">Twitter</p>
+            <div class="flex col contact-tile">
+              <div class="icon-container">
+                <object type="image/svg+xml" data="images/contact-twitter.svg">
+                  Find me on Twitter
+                </object>
+              </div>
+              <p class="contact-subtitle">Twitter</p>
             </div>
           </a>
+          <!-- <div class="w16vw"></div> -->
           <a href="mailto:benelphinstone@gmail.com" target="_blank">
-            <div class="flex col icon-container">
-              <img class="icon" src="images/contact-email.svg" title="Send me an email"
-              alt="Send Ben an email">
-              <p class="social-title">Email</p>
+            <div class="flex col contact-tile">
+              <div class="icon-container">
+                <object type="image/svg+xml" data="images/contact-email.svg">
+                  Find me on Twitter
+                </object>
+              </div>
+              <p class="contact-subtitle">Email</p>
             </div>
           </a>
         </div>
@@ -255,11 +297,9 @@
     </div>
 
     <!-- JS -->
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script type='text/javascript' src="myscripts.js"></script>
   </body>
 </html>
-
 
 <!-- <input type="button" id="btnSearch" value="Search" onclick="GetValue();" />
 <p id="message" class="basic-text" >hello</p>
